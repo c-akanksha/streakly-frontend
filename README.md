@@ -2,8 +2,7 @@
 
 **Streakly** is a fun, responsive streak tracker that helps you maintain daily, weekly, and monthly habits visually. Celebrate consistency with colorful streak cards and fun icons!  
 
-![Demo GIF](https://your-demo-gif-link.gif)  
-*Replace the link above with your actual demo GIF.*
+![Demo GIF](https://github.com/c-akanksha/streakly-frontend/blob/main/public/demo.gif)
 
 
 ## ✨ Features
