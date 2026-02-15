@@ -4,11 +4,10 @@ import {
   Typography,
   TextField,
   Button,
-  Link,
   useTheme,
   useMediaQuery,
 } from "@mui/material";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useLogin } from "../../api/auth";
 import ImageRotator from "../ImageRotator/ImageRotator";
 import badminton from "../../assets/badminton.png";
@@ -170,7 +169,7 @@ export default function Login() {
           <Typography variant="body2" mt={2}>
             Don’t have an account?{" "}
             <Link
-              href="/signup"
+              to="/signup"
               sx={{ color: theme.palette.primary.main, fontWeight: 500 }}
             >
               Sign up
