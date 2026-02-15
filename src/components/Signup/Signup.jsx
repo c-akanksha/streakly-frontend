@@ -4,11 +4,10 @@ import {
   Typography,
   TextField,
   Button,
-  Link,
   useTheme,
   useMediaQuery,
 } from "@mui/material";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useSignup } from "../../api/auth";
 import ImageRotator from "../ImageRotator/ImageRotator";
 import skateboarding from "../../assets/skateboarding.png";
@@ -199,7 +198,7 @@ const Signup = () => {
           <Typography variant="body2" mt={2}>
             Already have an account?{" "}
             <Link
-              href="/login"
+              to="/login"
               sx={{ color: theme.palette.primary.main, fontWeight: 500 }}
             >
               Login
