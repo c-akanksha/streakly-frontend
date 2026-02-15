@@ -12,7 +12,7 @@ createRoot(document.getElementById("root")).render(
     <QueryClientProvider client={queryClient}>
       <CustomThemeProvider>
         <CssBaseline />
-        <BrowserRouter>
+        <BrowserRouter basename="/streakly">
           <App />
         </BrowserRouter>
       </CustomThemeProvider>
